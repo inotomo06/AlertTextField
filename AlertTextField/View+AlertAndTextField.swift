@@ -9,7 +9,7 @@ import Foundation
 import SwiftUI
 
 extension View {
-    // カスタムModifierのメソッド名を alertWithTextField に置き換え
+    
     func alertAndTextField(_ text: Binding<String>, isPresented: Binding<Bool>, title: String?, message: String?, placeholderText: String) -> some View {
         self.modifier(AlertWithTextField(textFieldText: text,
                                          isPresented: isPresented,
