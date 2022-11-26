@@ -8,9 +8,20 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var text = ""
+    @State private var shouldPresentAlert = false
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        Button {
+            
+        } label: {
+            Text("ShowAlertTextField")
+        }
+        .alertAndTextField($text,
+                           isPresented:$shouldPresentAlert,
+                           title: "",
+                           message: "",
+                           placeholderText: "")
     }
 }
 

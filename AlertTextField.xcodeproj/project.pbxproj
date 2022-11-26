@@ -11,6 +11,9 @@
 		7FA0E13429324E24001AD25F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA0E13329324E24001AD25F /* ContentView.swift */; };
 		7FA0E13629324E27001AD25F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FA0E13529324E27001AD25F /* Assets.xcassets */; };
 		7FA0E13929324E27001AD25F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FA0E13829324E27001AD25F /* Preview Assets.xcassets */; };
+		7FA0E14029324E4D001AD25F /* AlertControllerAndTextFieldContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA0E13F29324E4D001AD25F /* AlertControllerAndTextFieldContainer.swift */; };
+		7FA0E14229324E5D001AD25F /* AlertAndTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA0E14129324E5D001AD25F /* AlertAndTextField.swift */; };
+		7FA0E14429324E69001AD25F /* View+AlertAndTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA0E14329324E69001AD25F /* View+AlertAndTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		7FA0E13329324E24001AD25F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7FA0E13529324E27001AD25F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7FA0E13829324E27001AD25F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7FA0E13F29324E4D001AD25F /* AlertControllerAndTextFieldContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertControllerAndTextFieldContainer.swift; sourceTree = "<group>"; };
+		7FA0E14129324E5D001AD25F /* AlertAndTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertAndTextField.swift; sourceTree = "<group>"; };
+		7FA0E14329324E69001AD25F /* View+AlertAndTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+AlertAndTextField.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				7FA0E13129324E24001AD25F /* AlertTextFieldApp.swift */,
 				7FA0E13329324E24001AD25F /* ContentView.swift */,
+				7FA0E13F29324E4D001AD25F /* AlertControllerAndTextFieldContainer.swift */,
+				7FA0E14129324E5D001AD25F /* AlertAndTextField.swift */,
+				7FA0E14329324E69001AD25F /* View+AlertAndTextField.swift */,
 				7FA0E13529324E27001AD25F /* Assets.xcassets */,
 				7FA0E13729324E27001AD25F /* Preview Content */,
 			);
@@ -138,7 +147,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7FA0E13429324E24001AD25F /* ContentView.swift in Sources */,
+				7FA0E14029324E4D001AD25F /* AlertControllerAndTextFieldContainer.swift in Sources */,
+				7FA0E14229324E5D001AD25F /* AlertAndTextField.swift in Sources */,
 				7FA0E13229324E24001AD25F /* AlertTextFieldApp.swift in Sources */,
+				7FA0E14429324E69001AD25F /* View+AlertAndTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
